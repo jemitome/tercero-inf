@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
-body{
-   background:#3590F3;
-font-family: 'Balsamiq Sans', cursive;
+body {
+	background-color: yellow; 
 }
-h1 { color: #FFFB0C; }
-h2 {color: #A80874}
-p {color: #FFD6E0}
-b {color: #FFFFFF}
-a {color: #FFFFFF}
+
+li{
+	list-style: none;
+	float: left;
+	padding: 10px;
+}
+li:hover{
+	background-color: red;
+	border-radius: 10px;
+}
